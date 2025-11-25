@@ -5,7 +5,7 @@
   "homepage": "https://AUPPCS.github.io/tic-tac-toe-deployment-NorintRos",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url /tic-tac-toe-h/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
